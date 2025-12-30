@@ -1,8 +1,8 @@
-# SynDiff
+# PGDiff
 
-Official PyTorch implementation of SynDiff described in the [paper](https://arxiv.org/abs/2207.08208).
+Official PyTorch implementation of PGDiff described in the [paper](https:).
 
-Muzaffer Özbey, Onat Dalmaz, Salman UH Dar, Hasan A Bedel, Şaban Özturk, Alper Güngör, Tolga Çukur, "Unsupervised Medical Image Translation with Adversarial Diffusion Models", arXiv 2022.
+
 
 <img src="./figures/adv_diff.png" width="600px">
 
@@ -76,22 +76,9 @@ python test.py --image_size 256 --exp exp_syndiff --num_channels 2 --num_channel
 Preliminary versions of SynDiff are presented in [NeurIPS Medical Imaging Meets](https://www.cse.cuhk.edu.hk/~qdou/public/medneurips2022/105.pdf) and IEEE ISBI 2023.
 You are encouraged to modify/distribute this code. However, please acknowledge this code and cite the paper appropriately.
 ```
-@misc{özbey2023unsupervised,
-      title={Unsupervised Medical Image Translation with Adversarial Diffusion Models}, 
-      author={Muzaffer Özbey and Onat Dalmaz and Salman UH Dar and Hasan A Bedel and Şaban Özturk and Alper Güngör and Tolga Çukur},
-      year={2023},
-      eprint={2207.08208},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
-}
 
-```
-For any questions, comments and contributions, please contact Muzaffer Özbey (muzafferozbey94[at]gmail.com ) <br />
 
-(c) ICON Lab 2022
+``
 
-<br />
-
-# Acknowledgements
 
 This code uses libraries from, [pGAN](https://github.com/icon-lab/pGAN-cGAN), [StyleGAN-2](https://github.com/NVlabs/stylegan2), and [DD-GAN](https://github.com/NVlabs/denoising-diffusion-gan) repositories.
